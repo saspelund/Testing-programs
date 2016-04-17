@@ -1,0 +1,16 @@
+#include <iostream>
+#include <stdio.h>
+
+
+using namespace std;
+
+int main()
+{
+	double value;
+	cout << "Give me a number with a decimal point: ";
+	cin >> value;
+	
+	printf( "The number you gave me was: %f\n", value);
+	
+	return 0;
+}
